@@ -9,7 +9,7 @@ class users {
 
 	public function __construct(){
 
-		$this->db = new mysqli('192.168.1.74', 'root', '', 'testdb');
+		$this->db = new mysqli('localhost', 'test1', '123', 'test1');
 
 		// Check connection
 		if ($this->db->connect_error) {
